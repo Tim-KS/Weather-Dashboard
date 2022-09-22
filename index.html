@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = './Assets/css/style.css'>
+
+        <title>Weather Forecast Tool</title>
+    </head>
+    <body>
+        <header>
+            <h1 class = 'title'>Weather Dashboard</h1>
+        </header>
+        <div class="input">
+            <h2>Search to find the current weather for any location in the world!</h2>
+            <input type="text" class="userInput"  placeholder='Try: Sydney'>
+            <input type="submit" value = 'Submit' class="userSubmit">
+            <input type="reset" value = 'Clear' class="reset">
+        </div>
+        <div class = 'weather'>
+            <div class="display" >
+                <h1 class="locationName"></h1>
+                <img class = 'weatherImage' src = ''>
+                <p class="desc"></p>
+                <p class="temp"></p>
+                <p class="windSpeed"></p>
+                <p class="humidity"></p>
+            </div>
+        </div>
+        <script src = 'Assets/js/script.js'></script>
+    </body>
+</html>
