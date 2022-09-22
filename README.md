@@ -11,11 +11,11 @@ Intantly find the following bits of weather data from anywhere around the globe:
 
 ## Installation
 ### GitHub installation
-1. Clone the GitHub repository to your preferred location with `git clone https://github.com/Tim-KS/Music-Search-Webpage.git`
+1. Clone the GitHub repository to your preferred location with `https://github.com/Tim-KS/Weather-Dashboard.git`
 2. Go into the folder and open 'index.html'
 3. The program will be ready to use
 
-Otherwise follow the deployed link to test the application.
+Otherwise follow the deployed link to test the application. `https://tim-ks.github.io/Weather-Dashboard/`
 
 ### Third-party assets
 - Openweathermap API
@@ -23,8 +23,8 @@ Otherwise follow the deployed link to test the application.
 
 
 ## Planned features
--See a 5 day forecast for any given location
--See an hourly forecast for each day via a dropdown menu
--Convert error alert into a Modal
--Clean up the GUI
--UV index and associated warnings
+- See a 5 day forecast for any given location
+- See an hourly forecast for each day via a dropdown menu
+- Convert error alert into a Modal
+- Clean up the GUI
+- UV index and associated warnings
